@@ -107,7 +107,7 @@ The detailed results are saved in the file `filename` under the root directory o
 Once all baselines finished, obtained a summary table by running the command:
 
 ```
-python3 run_ae_postprocess.py --mode 1 --eval_worksheet_name ae_results
+python3 process_eval_data.py --mode 1
 ```
 
 
@@ -184,7 +184,7 @@ Detailed descriptions of these baselines can be found in Section 7.2 of the pape
 To run the baselines, run the following command in the following subsections. Once finished, obtained a summary table by running the command:
 
 ```
-python3 run_ae_postprocess.py --mode 2 --eval_worksheet_name ae_results
+python3 process_eval_data.py --mode 2
 ```
 
 #### ChatGPT-Synth
@@ -226,7 +226,7 @@ Recall that Section 7.3 uses the following variants of Smore for comparison:
 To run these variants, run the following command in the following subsections.Once finished, obtained a summary table by running the command:
 
 ```
-python3 run_ae_postprocess.py --mode 3 --eval_worksheet_name ae_results
+python3 process_eval_data.py --mode 3
 ```
 
 #### Smore-NoDecomp
