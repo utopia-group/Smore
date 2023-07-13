@@ -1,3 +1,5 @@
+![Smore](logo.png)
+
 # Code Artifact for Smore
 
 ## Overview
