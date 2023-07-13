@@ -14,7 +14,7 @@ This artifact does not support the claim that semantic regexes help human more e
 
 ## Getting Started Guide
 
-In this section, we provide two ways to set up the artifact: through a docker image and through the source code.
+In this section, we provide two ways to set up the artifact: through a docker image (recommended) and through the source code.
 
 ### Building and Running the Docker Image
 
