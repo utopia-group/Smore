@@ -1,0 +1,14 @@
+.github
+.idea*
+.pytest_cache
+.ipynb_checkpoints
+benchmarks/data
+benchmarks/sup
+benchmarks/*.pdf
+benchmarks/*.zip
+outputs
+prompting_examples_*
+user_study_log
+*.csv
+*.log
+*.ipynb
