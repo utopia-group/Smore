@@ -196,7 +196,10 @@ def generate_figure_7_3(d: List[Dict]):
     plt.plot(tool_to_cumulative_time['Smore-no-repair'], label='Smore-no-repair')
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    # plt.show()
+    plt.savefig('figure_7_3.png')
+
+
 
 
 
