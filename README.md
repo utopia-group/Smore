@@ -231,6 +231,8 @@ To run these variants, run the following command in the following subsections.On
 python3 process_eval_data.py --mode 3
 ```
 
+A plot is generated of the filename `figure_7_3.png` under the root directory.
+
 #### Smore-NoDecomp
 ```
 python3 -W ignore run_eval.py --no_decomp --eval_worksheet_name ae_results
